@@ -1,0 +1,43 @@
+.box{
+  width:250px;
+  height:250px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+}
+
+.container {
+  margin: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+.red{
+  background:#f00;
+}
+.green{
+  background:#0f0;
+}
+.blue{
+  background:#00f;
+}
+.yellow{
+  background: yellow;
+}
+.orange{
+  background: orange;
+}
+.pink{
+  background: pink;
+}
+.teal{
+  background: teal;
+}
+.brown{
+  background: brown;
+}
+.grey{
+  background: grey;
+}
