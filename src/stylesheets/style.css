@@ -41,3 +41,6 @@
 .grey{
   background: grey;
 }
+.clear{
+  background: inherit;
+}

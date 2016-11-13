@@ -1,14 +1,15 @@
 module.exports = {
     changeColor: function(req, res) {
-        let box1 = Math.floor(Math.random() * 0xFFFFFF).toString(16);
-        let box2 = Math.floor(Math.random() * 0xFFFFFF).toString(16);
-        let box3 = Math.floor(Math.random() * 0xFFFFFF).toString(16);
-        let box4 = Math.floor(Math.random() * 0xFFFFFF).toString(16);
-        let box5 = Math.floor(Math.random() * 0xFFFFFF).toString(16);
-        let box6 = Math.floor(Math.random() * 0xFFFFFF).toString(16);
-        let box7 = Math.floor(Math.random() * 0xFFFFFF).toString(16);
-        let box8 = Math.floor(Math.random() * 0xFFFFFF).toString(16);
-        let box9 = Math.floor(Math.random() * 0xFFFFFF).toString(16);
+        arrColor = ['red', 'green', 'blue', 'yellow', 'orange', 'pink', 'teal', 'brown', 'grey']
+        let box1 = arrColor[Math.ceil(Math.random() * arrColor.length)]
+        let box2 = arrColor[Math.ceil(Math.random() * arrColor.length)]
+        let box3 = arrColor[Math.ceil(Math.random() * arrColor.length)]
+        let box4 = arrColor[Math.ceil(Math.random() * arrColor.length)]
+        let box5 = arrColor[Math.ceil(Math.random() * arrColor.length)]
+        let box6 = arrColor[Math.ceil(Math.random() * arrColor.length)]
+        let box7 = arrColor[Math.ceil(Math.random() * arrColor.length)]
+        let box8 = arrColor[Math.ceil(Math.random() * arrColor.length)]
+        let box9 = arrColor[Math.ceil(Math.random() * arrColor.length)]
         res.json({
             box1: box1,
             box2: box2,
